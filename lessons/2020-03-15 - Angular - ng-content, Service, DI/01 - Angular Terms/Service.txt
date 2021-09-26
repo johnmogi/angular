@@ -1,0 +1,7 @@
+﻿Service
+-------
+מחלקה המבצעת פעילות לוגית בלבד.
+אין לה UI.
+Components לאחר מכן יכולים להשתמש ב-Service.
+פקודת ה-CLI שיוצרת Service:
+ng g s services/math --skipTests

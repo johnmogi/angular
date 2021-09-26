@@ -1,0 +1,26 @@
+<app-heading>Welcome to Northwind Website!</app-heading>
+
+
+<h4>Only now, in {{currentDate | date:"MMMM yyyy"}} - {{currentDiscount}}% discount on all products above
+    {{minPrice | currency:"ILS"}}
+</h4>
+
+<img #myImage src="/assets/images/home.png" [width]="imageWidth">
+
+<div>
+    <button (click)="decreaseImage()">&darr;</button>
+    <button (click)="resetImage()">&harr;</button>
+    <button (click)="increaseImage()">&uarr;</button>
+    <hr>
+
+    <input type="range" min="100" max="500" [(ngModel)]="imageWidth">
+    <br>
+
+    <span>{{myImage.width}} x {{myImage.height}}</span>
+    <hr>
+
+    <p ngClass="greenish">Apples</p>
+    <p *ngIf="isWinter">Oranges</p>
+    <h6 *ngFor="let v of vegetables">{{v}}</h6>
+
+</div>

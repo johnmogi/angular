@@ -1,0 +1,30 @@
+div {
+    height: 80%;
+    overflow: auto;
+    display: inline-block;
+}
+
+table, th, td {
+    border: 1px solid blue;
+}
+
+td:first-child {
+    text-align: left;
+}
+
+th, td {
+    padding: 5px;
+}
+
+tr:nth-of-type(even) {
+    background-color: lawngreen;
+}
+
+tr:nth-of-type(odd) {
+    background-color: lightcoral;
+}
+
+thead > tr:first-of-type {
+    background-color: lightgray;
+}
+
