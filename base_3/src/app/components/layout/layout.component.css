@@ -1,0 +1,24 @@
+
+.container{
+    margin: 25px;
+    min-height:100vh;
+    border: 1px solid #000;
+
+}
+.row{
+
+    display:flex;
+}
+.main{
+    height:75vh;
+    width:75%;
+    border:1px solid #000;
+    text-align: right;
+}
+.sidebar{
+    width: 25%;
+    text-align: right;
+
+    border:1px solid #000;
+
+}

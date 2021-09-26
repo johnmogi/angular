@@ -1,0 +1,8 @@
+h1{
+    direction: rtl;
+    text-align: center;
+}
+.container{
+text-align: right;
+    direction: rtl;
+}
