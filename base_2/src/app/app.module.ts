@@ -10,6 +10,9 @@ import { FooterComponent } from './components/layout/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './components/pages/home/home.component';
 import { AboutComponent } from './components/pages/about/about.component';
+import { ProductsComponent } from './components/pages/products/products.component';
+import { ContactComponent } from './components/pages/contact/contact.component';
+import { PageNotFoundComponent } from './components/pages/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { AboutComponent } from './components/pages/about/about.component';
     SidebarComponent,
     FooterComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    ProductsComponent,
+    ContactComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

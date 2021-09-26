@@ -1,0 +1,3 @@
+Template Reference Variable
+מזהה ייחודי במקום id שאנו נותנים לתגית
+שלאחר מכן ניתן לגשת אליה גם מה-HTML וגם מה-TypeScript
