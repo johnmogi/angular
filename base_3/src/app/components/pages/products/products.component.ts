@@ -8,20 +8,15 @@ import { ShoesService } from 'src/app/services/shoes.service';
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent implements OnInit {
+  public allShoes: ShoeModel[] =[];
   constructor(private ShoesService: ShoesService) { }
   // public allShoes: ShoeModel[] = [];
-  public allShoes: ShoeModel[]; 
-  ngOnInit(): void {
-    this.ShoesService.getAllShoes()
-    .subscribe(res => {
-      res.map(shoe => {
-console.log(shoe);
 
- });
-    }, err => alert(err.message));
-}
-
-
-   
+  ngOnInit() {
+    this.ShoesService.getAllShoes().subscribe(
+      (shoes) => (this.allShoes = shoes, console.log(this.allShoes)),
+      (err) => alert(err.message)
+    );
   }
 
+}
