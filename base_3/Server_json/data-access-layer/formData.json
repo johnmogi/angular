@@ -1,0 +1,15 @@
+[
+    {
+        "code": "nke-pro9",
+        "model": "nike-pro",
+        "price": 469,
+        "imageFile": "nike-pro.jpg"
+    },
+    {
+        "code": "adds-pro9",
+        "model": "adidas-pro",
+        "price": 359,
+        "imageFile": "adidas-pro.jpg"
+    }
+  
+]
